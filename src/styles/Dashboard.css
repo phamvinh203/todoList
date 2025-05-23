@@ -1,0 +1,106 @@
+
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  color: #202124;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-left: 50px;
+}
+
+.dashboard-header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #dadce0;
+  padding-bottom: 24px;
+}
+
+.dashboard-header h1 {
+  margin-bottom: 24px;
+  color: #202124;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.dashboard-summary {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.summary-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  min-width: 180px;
+  flex: 1;
+  border: solid 1px #dadce0;
+}
+
+
+.summary-label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 12px;
+  color: #5f6368;
+}
+
+.summary-value {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.dashboard-content {
+  background-color: white;
+  border-radius: 12px;
+  border: solid 1px #dadce0;
+  overflow: hidden;
+  width: 100%;
+  min-height: 600px;
+}
+
+/* Dashboard Tabs */
+.dashboard-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 32px;
+  border: solid 1px #dadce0;
+  border-radius: 8px;
+}
+
+.dashboard-tabs button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 120px;
+  background-color:bisque;
+  color: #5f6368;
+}
+
+
+
+
+/* Tab Content Sections */
+.class-section,
+.student-section,
+.teacher-section {
+  width: 100%;
+  min-height: 580px;
+  padding: 16px;
+}
+
+/* Responsive fallback layout */
+.dashboard-content.responsive {
+  grid-template-columns: 1fr;
+}
+
+.dashboard-summary.responsive {
+  flex-direction: column;
+}

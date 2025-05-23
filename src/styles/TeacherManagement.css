@@ -1,0 +1,116 @@
+.teacher-management {
+  padding: 16px;
+  background-color: white;
+  border-radius: 8px;
+  bottom: 10px;
+}
+
+.teacher-management h2 {
+  margin-bottom: 20px;
+}
+
+.teacher-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.teacher-list-section,
+.teacher-classes-section {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.teacher-list {
+  margin-top: 20px;
+}
+
+.teacher-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.teacher-list li {
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  background-color: white;
+}
+
+.teacher-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.teacher-info {
+  flex: 1;
+  cursor: pointer;
+}
+
+.teacher-info h4 {
+  margin: 0 0 8px 0;
+  color: #202124;
+}
+
+.teacher-details {
+  font-size: 14px;
+}
+
+.teacher-details p {
+  margin: 4px 0;
+}
+
+.teacher-actions {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.teacher-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #202124;
+  padding: 4px;
+}
+
+.edit-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.edit-buttons button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-buttons button:first-child {
+  background-color: #4285f4;
+  color: white;
+}
+
+.edit-buttons button:last-child {
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+}
+
+.assign-button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+

@@ -1,0 +1,110 @@
+
+.class-management {
+  padding: 16px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.class-management h2 {
+  margin-bottom: 16px;
+  color: #202124;
+}
+
+.class-list h3 {
+  margin-bottom: 16px;
+}
+
+.class-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.class-list li {
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  transition: all 0.2s;
+}
+
+.class-list li.active {
+  border-color: #1a73e8;
+  background-color: #f0f4ff;
+}
+
+.class-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.class-name {
+  cursor: pointer;
+  flex: 1;
+}
+
+.class-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.class-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #202124;
+  padding: 4px;
+}
+
+.class-actions button:hover {
+  color: #1a73e8;
+}
+
+/* Teacher assignment in class */
+.class-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.class-teacher {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #1a73e8;
+  margin-top: 4px;
+  gap: 4px;
+}
+
+.remove-teacher-btn {
+  background: none;
+  border: none;
+  color: #db4437;
+  cursor: pointer;
+  padding: 2px;
+  margin-left: 4px;
+}
+
+.remove-teacher-btn:hover {
+  color: #b32535;
+}
+
+.class-actions button:last-child {
+  margin-left: 8px;
+  background-color: #f0f4ff;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.class-actions button:last-child:hover {
+  background-color: #1a73e8;
+  color: white;
+  border-color: #1a73e8;
+}
